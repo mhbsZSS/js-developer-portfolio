@@ -1,6 +1,7 @@
 async function fetchProfileData() {
-  const url = 'https://raw.mhbszss.github.io/js-developer-portfolio/';
+  const url = 'https://raw.github.com/mhbsZSS/js-developer-portfolio/blob/main/data/profile.json';
   const fetching = await fetch(url)
   return await fetching.json()
 
 }
+
