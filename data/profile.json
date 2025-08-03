@@ -9,27 +9,27 @@
     "hardSkills": [
             {
         "name": "HTML",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/javascript.png"
       },
       {
         "name": "Python",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/python.png"
       },
       {
         "name": "GitHub",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/github.png"
       },
       {
         "name": "Java",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/java.png"
       },
       {
         "name": "Matemática",
@@ -78,4 +78,5 @@
       "description": "Formação em andamento em Tecnologia de Sistemas Inteligentes pela FATEC para desenvolvimento pessoal e profissional na área de T.I."
     }
   ]
+
 }
