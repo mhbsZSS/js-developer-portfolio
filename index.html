@@ -26,26 +26,27 @@
   <link rel="stylesheet" href="/assets/css/portfolio.css">
   <link rel="stylesheet" href="/assets/css/experience.css">
   <link rel="stylesheet" href="/assets/css/skills.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
 
 </head> 
 
 <body>
   <main class="main"> 
     <header class="header">
-        <img src="/assets/img/foto_perfil.png" alt="Foto de perfil" class="photo">
+        <img src="/assets/img/foto_perfil.png" alt="Foto de perfil" class="photo" id="profile.photo">
 
         <h1 class="title">
-          Olá, <br>eu sou o Marcio Hernani
+          Olá, <br>eu sou <span id="profile.name">Carregando...</span>
         </h1>
 
         <div class="information">
-          <p class="job">Professor de Matemática</p>
-          <p class="location">Estado de São Paulo</p>
+          <p class="job" id="profile.job">Carregando...</p>
+          <p class="location" id="profile.location">Carregando...</p>
           <p class="phone">
-            <a href="tel">(99) 9 9999 - 9999</a>
+            <a href="tel:(99)99999-9999" id="profile.phone">Carregando...</a>
           </p>
           <p class="email">
-            <a href="mailto">prof.marcio@gmail.com</a>
+            <a href="mailto:example@mail.com" id="profile.email">Carregando...</a>
           </p>
         </div>
     </header>
@@ -61,47 +62,17 @@
         <div class="skills">
           <section class="tools">
             <h3>Ferramentas:</h3>
-            <ul>
-              <li>
-                <img src="/assets/img/icons/tools/html.svg" alt="HTML" title="HTML">
-              </li>
-
-              <li>
-                <img src="/assets/img/icons/tools/css.svg" alt="CSS" title="CSS">
-              </li>
-
-              <li>
-                <img src="/assets/img/icons/tools/js.svg" alt="JavaScript" title="JavaScript">
-              </li>
-
-              <li>
-                <img src="/assets/img/icons/tools/python.svg" alt="Python" title="Python">
-              </li>
-
-              <li>
-                <img src="/assets/img/icons/tools/gitHub.svg" alt="GitHub" title="GitHub">
-              </li>
-
-              <li>
-                <img src="/assets/img/icons/tools/java.svg" alt="Java" title="Java">
-              </li>
-              
-              <li>
-                <img src="/assets/img/icons/tools/numero_pi.svg" alt="Matematica" title="Matematica">
-              </li>
-              
+            <ul id="profile.skills.hardSkills">
             </ul>
         </section>
 
         <section class="personal">
           <h3>Pessoal:</h3>
-          <ul>
-            <li>Liderança</li>
-            <li>Facilidade de comunicação</li>
-            <li>Organização</li>
-            <li>Trabalho em equipe</li>
-            <li>Flexibilidade</li>
-            <li>Habilidades com matemática</li>
+          <ul id="profile.skills.softSkills">
+            <li>Carregando...</li>
+            <li>Carregando...</li>
+            <li>Carregando...</li>
+            <li>Carregando...</li>
           </ul>
         </section>
         </div>
@@ -116,9 +87,8 @@
       </button>
       
       <div class="content">
-        <ul class="languages">
-          <li>Português</li>
-          <li>Inglês Básico</li>
+        <ul class="languages" id="profile.languages">
+          <li>Carregando...</li>
         </ul>
       </div>
 
@@ -130,26 +100,7 @@
       </button>
 
       <div class="content">
-        <ul class="portfolio">
-            <li>
-              
-              <span class="title youtube">Meu canal do Youtube sobre Matemática</span>
-              <a href="https://www.youtube.com/shorts/QYgJNJmBVqs" target="_blank">A beleza da matemática</a>
-            
-            </li>
-            <li>
-              
-              <span class="title github">Construindo uma pokedex Formação DIO</span>
-              <a href="https://github.com/mhbsZSS/Construindo_pokedex_JS_DIO" target="_blank">Pokedex</a>
-            
-            </li>
-            <li>
-              
-              <span class="title github">Classificação de nível herói Formação DIO JavaScript</span>
-              <a href="https://github.com/mhbsZSS/desafio-logica-dio-inicial" target="_blank">Classificação de nível</a>
-            
-            </li>
-
+        <ul class="portfolio" id="profile.portfolio">
         </ul>
       </div>
     </section>
@@ -160,32 +111,15 @@
       </button>
 
       <div class="content">
-        <ul class="experience">
-            <li>
-              
-              <h2 class="title">Professor de matemática</h2>
-              <p class="period">Jul 2014 - Current</p>
-              <p>
-                Formado em licenciatura plena em matemática, atualmente atuando no ensino básico da educação do Estado de São Paulo, 
-                para alunos do Ensino Fundamental II (6º ano ao 9º ano), possuo um canal no Youtube para compartilhar materiais de
-                matemática para professores e alunos.
-              </p>
-            
-            </li>
-
-             <li>
-              
-              <h2 class="title">Tecnólogo em Sistemas Inteligentes - FATEC</h2>
-              <p class="period">Fev 2025 - Current</p>
-              <p>
-                Formação em andamento em Tecnologia de Sistemas Inteligentes pela FATEC para desenvolvimento pessoal e profissional
-                na área de T.I. 
-              </p>
-            
-            </li>
+        <ul class="experience" id="profile.professionalExperience">
         </ul>
       </div>
     </section>
+
+    <footer>
+      <a href="https://www.dio.me" target="_blank">
+        <img src="/assets/imgdio.svg" alt="DIO">
+    </footer>
 
   </main>
 
@@ -193,4 +127,5 @@
   <script src="/assets/js/api.js"></script>
   <script src="/assets/js/main.js"></script>
 </body>
+
 </html>
