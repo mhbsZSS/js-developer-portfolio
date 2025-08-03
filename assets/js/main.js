@@ -1,5 +1,5 @@
 function updateProfileInfo(profileData) {
-  const photo = document.getElementsById('profile.photo')
+  const photo = document.getElementById('profile.photo')
   photo.src = profileData.photo
   photo.alt = profileData.name
 
@@ -71,4 +71,5 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
+
 })()
