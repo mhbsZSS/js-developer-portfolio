@@ -33,7 +33,7 @@
       },
       {
         "name": "Matemática",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/mhbsZSS/js-developer-portfolio/refs/heads/main/data/imgs/matematica.png"
       }
     ],
     "softSkills": [
@@ -74,9 +74,10 @@
     },
     {
       "name": "Tecnologia em Sistemas Inteligentes - FATEC/Pompéia",
-      "period": "2021 - 2022",
+      "period": "2025 - até o momento",
       "description": "Formação em andamento em Tecnologia de Sistemas Inteligentes pela FATEC para desenvolvimento pessoal e profissional na área de T.I."
     }
   ]
 
 }
+
