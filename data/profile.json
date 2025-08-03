@@ -1,0 +1,81 @@
+{
+  "name": "Marcio H B Silva",
+  "photo": "",
+  "job": "Professor de matemática educação básica SP",
+  "location": "Pompéia - SP",
+  "phone": "(99) 99999-9999",
+  "email": "prof.marcio.hernani@gmail.com",
+  "skills": {
+    "hardSkills": [
+            {
+        "name": "HTML",
+        "logo": ""
+      },
+      {
+        "name": "CSS",
+        "logo": ""
+      },
+      {
+        "name": "JavaScript",
+        "logo": ""
+      },
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "GitHub",
+        "logo": ""
+      },
+      {
+        "name": "Java",
+        "logo": ""
+      },
+      {
+        "name": "Matemática",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Facilidade de comunicação",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Habilidades com matemática"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Meu canal do YouTube sobre Matemática",
+      "url": "https://www.youtube.com/shorts/QYgJNJmBVqs",
+      "youtube": true
+    },
+    {
+      "name": "Construindo uma pokedex Formação DIO",
+      "url": "https://github.com/mhbsZSS/Construindo_pokedex_JS_DIO",
+      "github": true
+    },
+    {
+      "name": "Classificação de nível herói Formação DIO JavaScript",
+      "url": "https://github.com/mhbsZSS/desafio-logica-dio-inicial",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Professor de matemática/Estado de São Paulo",
+      "period": "2014 - até o momento",
+      "description": "Formado em licenciatura plena em matemática, atualmente atuando no ensino básico da educação do Estado de São Paulo, para alunos do Ensino Fundamental II (6º ano ao 9º ano), possuo um canal no Youtube para compartilhar materiais de matemática para professores e alunos."
+    },
+    {
+      "name": "Tecnologia em Sistemas Inteligentes - FATEC/Pompéia",
+      "period": "2021 - 2022",
+      "description": "Formação em andamento em Tecnologia de Sistemas Inteligentes pela FATEC para desenvolvimento pessoal e profissional na área de T.I."
+    }
+  ]
+}
