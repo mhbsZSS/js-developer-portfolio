@@ -32,7 +32,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/img/icons/github.svg');
+  background-image: url('../img/icons/github.svg');
   margin-right: .5rem;
 }
 
@@ -43,7 +43,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/img/icons/tools/youtube.svg');
+  background-image: url('../img/icons/tools/youtube.svg');
   margin-right: .5rem;
 }
 
@@ -55,4 +55,5 @@
   text-decoration: underline;
 
 }
+
 
